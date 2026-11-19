@@ -1,0 +1,14 @@
+com\desarrollo\serviciosweb\controller\ClientesController.class
+com\desarrollo\serviciosweb\HelloApplication.class
+com\desarrollo\serviciosweb\controller\ClientesController$2.class
+com\desarrollo\serviciosweb\Launcher.class
+com\desarrollo\serviciosweb\model\Usuario.class
+com\desarrollo\serviciosweb\service\ClienteService$1.class
+com\desarrollo\serviciosweb\model\Cliente.class
+com\desarrollo\serviciosweb\controller\UsuariosController$1.class
+com\desarrollo\serviciosweb\controller\ClientesController$1.class
+com\desarrollo\serviciosweb\controller\UsuariosController.class
+com\desarrollo\serviciosweb\HelloController.class
+module-info.class
+com\desarrollo\serviciosweb\service\UsuarioService.class
+com\desarrollo\serviciosweb\service\ClienteService.class

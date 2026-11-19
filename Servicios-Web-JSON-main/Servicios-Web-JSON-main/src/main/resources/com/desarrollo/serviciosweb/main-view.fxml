@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+
+<!-- Navegación entre módulos: cada pestaña conserva su vista y controlador independientes. -->
+<TabPane xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" tabClosingPolicy="UNAVAILABLE">
+    <Tab text="Usuarios (JSONPlaceholder)">
+        <fx:include source="hello-view.fxml"/>
+    </Tab>
+    <Tab text="Clientes (Supabase)">
+        <fx:include source="clientes-view.fxml"/>
+    </Tab>
+</TabPane>

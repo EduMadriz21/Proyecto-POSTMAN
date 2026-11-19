@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="com.desarrollo.serviciosweb.service.UsuarioServiceTest" time="0.008" tests="6" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Eduardo Madriz\Desktop\Servicios-Web-JSON-main\Servicios-Web-JSON-main\target\test-classes;C:\Users\Eduardo Madriz\.m2\repository\org\openjfx\javafx-controls\21.0.6\javafx-controls-21.0.6.jar;C:\Users\Eduardo Madriz\.m2\repository\org\openjfx\javafx-graphics\21.0.6\javafx-graphics-21.0.6.jar;C:\Users\Eduardo Madriz\.m2\repository\org\openjfx\javafx-base\21.0.6\javafx-base-21.0.6.jar;C:\Users\Eduardo Madriz\.m2\repository\org\openjfx\javafx-fxml\21.0.6\javafx-fxml-21.0.6.jar;C:\Users\Eduardo Madriz\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.12.1\junit-jupiter-api-5.12.1.jar;C:\Users\Eduardo Madriz\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Eduardo Madriz\.m2\repository\org\junit\platform\junit-platform-commons\1.12.1\junit-platform-commons-1.12.1.jar;C:\Users\Eduardo Madriz\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Eduardo Madriz\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.12.1\junit-jupiter-engine-5.12.1.jar;C:\Users\Eduardo Madriz\.m2\repository\org\junit\platform\junit-platform-engine\1.12.1\junit-platform-engine-1.12.1.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="America/Managua"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="NI"/>
+    <property name="sun.boot.library.path" value="C:\Users\Eduardo Madriz\.jdks\temurin-21.0.13\bin"/>
+    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter C:\Users\Eduardo Madriz\AppData\Local\Temp\surefire6939941498736771527 2026-11-18T19-24-04_558-jvmRun1 surefire-20261118192404734_1tmp surefire_0-20261118192404734_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Eduardo Madriz\Desktop\Servicios-Web-JSON-main\Servicios-Web-JSON-main\target\test-classes;C:\Users\Eduardo Madriz\.m2\repository\org\openjfx\javafx-controls\21.0.6\javafx-controls-21.0.6.jar;C:\Users\Eduardo Madriz\.m2\repository\org\openjfx\javafx-graphics\21.0.6\javafx-graphics-21.0.6.jar;C:\Users\Eduardo Madriz\.m2\repository\org\openjfx\javafx-base\21.0.6\javafx-base-21.0.6.jar;C:\Users\Eduardo Madriz\.m2\repository\org\openjfx\javafx-fxml\21.0.6\javafx-fxml-21.0.6.jar;C:\Users\Eduardo Madriz\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.12.1\junit-jupiter-api-5.12.1.jar;C:\Users\Eduardo Madriz\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Eduardo Madriz\.m2\repository\org\junit\platform\junit-platform-commons\1.12.1\junit-platform-commons-1.12.1.jar;C:\Users\Eduardo Madriz\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Eduardo Madriz\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.12.1\junit-jupiter-engine-5.12.1.jar;C:\Users\Eduardo Madriz\.m2\repository\org\junit\platform\junit-platform-engine\1.12.1\junit-platform-engine-1.12.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Eduardo Madriz"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="jdk.module.path" value="C:\Users\Eduardo Madriz\Desktop\Servicios-Web-JSON-main\Servicios-Web-JSON-main\target\classes;C:\Users\Eduardo Madriz\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.22.4\jackson-databind-2.22.4.jar;C:\Users\Eduardo Madriz\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.22\jackson-annotations-2.22.jar;C:\Users\Eduardo Madriz\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.22.4\jackson-core-2.22.4.jar;C:\Users\Eduardo Madriz\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.22.4\jackson-datatype-jsr310-2.22.4.jar;C:\Users\Eduardo Madriz\.m2\repository\org\openjfx\javafx-controls\21.0.6\javafx-controls-21.0.6-win.jar;C:\Users\Eduardo Madriz\.m2\repository\org\openjfx\javafx-graphics\21.0.6\javafx-graphics-21.0.6-win.jar;C:\Users\Eduardo Madriz\.m2\repository\org\openjfx\javafx-base\21.0.6\javafx-base-21.0.6-win.jar;C:\Users\Eduardo Madriz\.m2\repository\org\openjfx\javafx-fxml\21.0.6\javafx-fxml-21.0.6-win.jar"/>
+    <property name="java.version.date" value="2026-10-20"/>
+    <property name="java.home" value="C:\Users\Eduardo Madriz\.jdks\temurin-21.0.13"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Eduardo Madriz\Desktop\Servicios-Web-JSON-main\Servicios-Web-JSON-main"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Eduardo Madriz\.m2\repository\org\apache\maven\surefire\surefire-booter\3.5.2\surefire-booter-3.5.2.jar;C:\Users\Eduardo Madriz\.m2\repository\org\apache\maven\surefire\surefire-api\3.5.2\surefire-api-3.5.2.jar;C:\Users\Eduardo Madriz\.m2\repository\org\apache\maven\surefire\surefire-extensions-spi\3.5.2\surefire-extensions-spi-3.5.2.jar;C:\Users\Eduardo Madriz\.m2\repository\org\apache\maven\surefire\surefire-shared-utils\3.5.2\surefire-shared-utils-3.5.2.jar;C:\Users\Eduardo Madriz\.m2\repository\org\apache\maven\surefire\surefire-logger-api\3.5.2\surefire-logger-api-3.5.2.jar;C:\Users\Eduardo Madriz\Desktop\Servicios-Web-JSON-main\Servicios-Web-JSON-main\target\test-classes;C:\Users\Eduardo Madriz\.m2\repository\org\openjfx\javafx-controls\21.0.6\javafx-controls-21.0.6.jar;C:\Users\Eduardo Madriz\.m2\repository\org\openjfx\javafx-graphics\21.0.6\javafx-graphics-21.0.6.jar;C:\Users\Eduardo Madriz\.m2\repository\org\openjfx\javafx-base\21.0.6\javafx-base-21.0.6.jar;C:\Users\Eduardo Madriz\.m2\repository\org\openjfx\javafx-fxml\21.0.6\javafx-fxml-21.0.6.jar;C:\Users\Eduardo Madriz\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.12.1\junit-jupiter-api-5.12.1.jar;C:\Users\Eduardo Madriz\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Eduardo Madriz\.m2\repository\org\junit\platform\junit-platform-commons\1.12.1\junit-platform-commons-1.12.1.jar;C:\Users\Eduardo Madriz\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Eduardo Madriz\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.12.1\junit-jupiter-engine-5.12.1.jar;C:\Users\Eduardo Madriz\.m2\repository\org\junit\platform\junit-platform-engine\1.12.1\junit-platform-engine-1.12.1.jar;C:\Users\Eduardo Madriz\.m2\repository\org\apache\maven\surefire\surefire-junit-platform\3.5.2\surefire-junit-platform-3.5.2.jar;C:\Users\Eduardo Madriz\.m2\repository\org\apache\maven\surefire\common-java5\3.5.2\common-java5-3.5.2.jar;C:\Users\Eduardo Madriz\.m2\repository\org\junit\platform\junit-platform-launcher\1.12.1\junit-platform-launcher-1.12.1.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.13+9-LTS"/>
+    <property name="user.name" value="Eduardo Madriz"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-21.0.13+9"/>
+    <property name="localRepository" value="C:\Users\Eduardo Madriz\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\EDUARD~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.13"/>
+    <property name="user.dir" value="C:\Users\Eduardo Madriz\Desktop\Servicios-Web-JSON-main\Servicios-Web-JSON-main"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\Eduardo Madriz\.jdks\temurin-21.0.13\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\Eduardo Madriz\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Eduardo Madriz\bin;C:\Users\Eduardo Madriz\.jdks\temurin-21.0.13\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;C:\Program Files\dotnet;C:\Program Files (x86)\Microsoft SQL Server\170\Tools\Binn;C:\Program Files\Microsoft SQL Server\170\Tools\Binn;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\180\Tools\Binn;C:\Program Files\Microsoft SQL Server\170\DTS\Binn;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Program Files\PostgreSQL\17\bin;C:\Program Files\GitHub CLI;C:\Users\Eduardo Madriz\AppData\Local\Programs\Python\Python312\Scripts;C:\Users\Eduardo Madriz\AppData\Local\Programs\Python\Python312;C:\Users\Eduardo Madriz\AppData\Local\Programs\Python\Launcher;C:\Users\Eduardo Madriz\.local\bin;C:\Users\Eduardo Madriz\AppData\Local\Microsoft\WindowsApps;C:\Users\Eduardo Madriz\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2026.2.2\bin;C:\Tools\apache-maven-3.9.16\bin;C:\Users\Eduardo Madriz\AppData\Local\Programs\DockerDesktop\resources\bin;C:\Users\Eduardo Madriz\AppData\Roaming\npm;C:\Users\Eduardo Madriz\AppData\Local\Programs\Microsoft VS Code\bin\copilot-shim;C:\Users\Eduardo Madriz\AppData\Local\Microsoft\WinGet\Packages\astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\Eduardo Madriz\AppData\Local\github-copilot\jetbrains-terminal\copilot-cli-shim\v1;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;C:\Users\Eduardo Madriz\.claude\plugins\cache\caveman\caveman\2.7.0\bin;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="21.0.13+9-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="raizQueNoEsListaLanzaIOException" classname="com.desarrollo.serviciosweb.service.UsuarioServiceTest" time="0.004"/>
+  <testcase name="jsonInvalidoLanzaIOException" classname="com.desarrollo.serviciosweb.service.UsuarioServiceTest" time="0.001"/>
+  <testcase name="listaVaciaDevuelveCeroUsuarios" classname="com.desarrollo.serviciosweb.service.UsuarioServiceTest" time="0.0"/>
+  <testcase name="elementoQueNoEsObjetoLanzaIOException" classname="com.desarrollo.serviciosweb.service.UsuarioServiceTest" time="0.0"/>
+  <testcase name="camposFaltantesQuedanVacios" classname="com.desarrollo.serviciosweb.service.UsuarioServiceTest" time="0.001"/>
+  <testcase name="parseaCamposAnidadosDeJsonPlaceholder" classname="com.desarrollo.serviciosweb.service.UsuarioServiceTest" time="0.001"/>
+</testsuite>

@@ -1,0 +1,4 @@
+--patch-module
+com.desarrollo.serviciosweb=_
+--add-reads
+com.desarrollo.serviciosweb=ALL-UNNAMED
